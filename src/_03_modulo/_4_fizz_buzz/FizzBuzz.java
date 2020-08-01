@@ -23,4 +23,3 @@ package _03_modulo._4_fizz_buzz;
 public class FizzBuzz {
 
 }
-
