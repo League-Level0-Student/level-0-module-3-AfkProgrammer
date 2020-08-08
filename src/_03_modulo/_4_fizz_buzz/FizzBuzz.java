@@ -7,7 +7,7 @@ package _03_modulo._4_fizz_buzz;
 * 
 * In this project, we're going to build FizzBuzz. It's a children's game where
 * you count from 1 to 20. Easy, right? Here's the catch: 
-* 
+* HELP I DON'T UNDERSTAND WHAT IM SUPPOSED TO DO IN THIS ASSIGNMENT.....
 * Instead of saying a number that is divisible by 3, say "Fizz".
 * And instead of saying a number that is divisible by 5, say "Buzz".
 * For numbers divisible by both 3 and 5, say "FizzBuzz".
@@ -21,5 +21,22 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
+	
+	public static void main (String[] args) {
+		
+		for (int n= 1; n<=20; n++) {
+		
+		if (n%3==0) {
+			System.out.println("Fizz");
+		}
+		else if (n%5==0) {
+			System.out.println("Buzz");
+		}
+		else if (n%n==0) {
+			System.out.println(n);
+		}
+	}
+
+}
 
 }
